@@ -170,6 +170,21 @@ img {
     outline: 0;
 }
 
+
+
+.services_main img {
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  border-radius: 8px;
+}
+
+.services_main img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.1);
+}
+
+
 .paddind_bottom_0 {
     padding-bottom: 0 !important;
 }
